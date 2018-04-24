@@ -56,7 +56,7 @@ It first selects $\sk^\alpha\randgets\mathbb{Z}/p(\lambda)\mathbb{Z}$,
 and computes $\pk^\alpha\gets\sk^\alpha G(\lambda)$.
 
 \begin{itemize}
-\item If $b=0$, it simply outputs $(\sk^\alpha, 0, \pk^\alpha)$.
+\item If $b=0$, it simply outputs $(\sk^\alpha, \bot, \pk^\alpha)$.
 \item If $b=1$, it obtains $(\sk^\beta, \pk^\beta) \gets \KeyGen^\beta$ and computes
 a ``tweak'' $\epsilon\gets H^\pk(\pk^\beta\|\pk^\alpha)$.
 
